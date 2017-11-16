@@ -1,0 +1,12 @@
+.jumbotron {
+    height: 100vh;
+}
+.main-heading {
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+.main-btn {
+    font-size: 30px;
+    font-weight: bold;
+}
