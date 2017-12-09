@@ -1,20 +1,16 @@
 import AboutPage from './AboutPage';
+import PortfolioPage from './PortfolioPage';
+import Jumbotron from './../container/Jumbotron';
 var React     = require('react');
-var ReactDOM  = require('react-dom');
 var Scroll    = require('react-scroll');
 
 
 var Link       = Scroll.Link;
-var DirectLink = Scroll.DirectLink;
 var Element    = Scroll.Element;
 var Events     = Scroll.Events;
 var scroll     = Scroll.animateScroll;
 var scrollSpy  = Scroll.scrollSpy;
 var scroller  = Scroll.scroller;
-
-var durationFn = function(deltaTop) {
-    return deltaTop;
-};
 
 export default class Header extends React.Component{
     
@@ -79,12 +75,28 @@ export default class Header extends React.Component{
       render () {
         return (
           <div>
-          <Link activeClass="active" to="Home" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+          <Link activeClass="active" to="jumbo" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
           Home
         </Link>
 
-        <Element name='Home' className='element'>
+        <Element name='jumbo' className='element'>
+            <Jumbotron />
+        </Element>
+
+        <Link activeClass="active" to="About" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+          About
+        </Link>
+
+        <Link activeClass="active" to="Portfolio" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+          Portfolio
+        </Link>
+
+        <Element name='About' className='element'>
             <AboutPage />
+        </Element>
+
+        <Element name='Portfolio' className='element'>
+            <PortfolioPage />
         </Element>
         </div>
     );
