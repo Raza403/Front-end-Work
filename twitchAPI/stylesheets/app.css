@@ -10333,43 +10333,47 @@ body {
   font-family: 'Oswald', sans-serif;
   background-color: #070D79;
 }
-/* line 9, ../sass/app.scss */
-body .wrapper {
+
+/* line 11, ../sass/app.scss */
+.wrapper {
   border: 4px solid #B67B0B;
 }
-/* line 12, ../sass/app.scss */
-body .wrapper .heading h1 {
+
+/* line 15, ../sass/app.scss */
+h1 {
   color: #B67B0B;
   font-size: 400%;
 }
 @media only screen and (max-width: 768px) {
-  /* line 12, ../sass/app.scss */
-  body .wrapper .heading h1 {
+  /* line 15, ../sass/app.scss */
+  h1 {
     font-size: 250%;
   }
 }
-/* line 22, ../sass/app.scss */
-body .wrapper .buttons .list {
+
+/* line 23, ../sass/app.scss */
+.list {
   text-align: center;
   width: 80px;
   background-color: #006400;
   color: #fff;
   border: 3px solid #B67B0B;
 }
-/* line 28, ../sass/app.scss */
-body .wrapper .buttons .list:hover, body .wrapper .buttons .list:focus, body .wrapper .buttons .list:active {
+/* line 29, ../sass/app.scss */
+.list:hover, .list:focus, .list:active {
   background-color: #B67B0B;
   color: #070D79;
   width: 90px;
 }
-/* line 39, ../sass/app.scss */
-body #data .channels {
+
+/* line 38, ../sass/app.scss */
+.channels {
   border: 4px solid #B67B0B;
   overflow: hidden;
 }
 @media only screen and (min-width: 769px) {
-  /* line 42, ../sass/app.scss */
-  body #data .channels img {
+  /* line 41, ../sass/app.scss */
+  .channels img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -10377,8 +10381,8 @@ body #data .channels {
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 42, ../sass/app.scss */
-  body #data .channels img {
+  /* line 41, ../sass/app.scss */
+  .channels img {
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -10386,8 +10390,8 @@ body #data .channels {
   }
 }
 @media only screen and (min-width: 769px) {
-  /* line 56, ../sass/app.scss */
-  body #data .channels .font {
+  /* line 55, ../sass/app.scss */
+  .channels .font {
     text-align: center;
     height: 100px;
     line-height: 100px;
@@ -10397,8 +10401,8 @@ body #data .channels {
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 56, ../sass/app.scss */
-  body #data .channels .font {
+  /* line 55, ../sass/app.scss */
+  .channels .font {
     text-align: center;
     height: 60px;
     line-height: 60px;
@@ -10407,8 +10411,8 @@ body #data .channels {
     font-weight: bold;
   }
 }
-/* line 74, ../sass/app.scss */
-body #data .channels .status {
+/* line 73, ../sass/app.scss */
+.channels .status {
   text-align: center;
   height: 100px;
   line-height: 100px;
