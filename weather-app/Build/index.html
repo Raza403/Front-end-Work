@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:500" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheets/final.css">
+    <!-- Critical CSS not extracted and CSS render blocking not eleminated due to small CSS file. -->
+    <link rel="stylesheet" href="./final.min.css">
     <meta name="description" content="This page displays users local weather update in centigrades and fahrenhiet">
     <title>Your local weather-info</title>
 </head>
@@ -26,6 +26,7 @@
             </div>
         </div>
     </section>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Customized javascript code also included in jquery file for less file requests from server. -->
+    <script src="./jquery.min.js"></script>
 </body>
 </html>

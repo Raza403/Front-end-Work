@@ -8158,3 +8158,39 @@ if ( !noGlobal ) {
 
 return jQuery;
 } );
+
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function (position) {
+        // get data from api
+        $.ajaxSetup({
+            cache: false
+        });
+        $.getJSON("https://fcc-weather-api.glitch.me/api/current?lat=" + position.coords.latitude +
+            "&lon=" + position.coords.longitude,
+            function (data) {
+                var temp = data.main.temp;
+                var f = (temp * 9 / 5) + 32;
+                $("#city").html("<p>" + data.name + "</p>");
+                $("#temp").html("<p>" + temp + " &#8451;</p>");
+                $("#description").html("<p>" + data.weather[0].description + "</p>");
+                $("#c").click(function () {
+                    $("#temp").html("<p>" + temp + " &#8451;</p>");
+                });
+                $("#f").click(function () {
+                    $("#temp").html("<p>" + f.toFixed(2) + " &#8457;</p>");
+                });
+                if (temp <= 20) {
+                    $('body').removeClass('beach desert').addClass('winter img-fluid');
+                }
+
+                if (temp > 20 && temp < 30) {
+                    $('body').removeClass('winter desert').addClass('beach img-fluid');
+                }
+
+                if (temp >= 30) {
+                    $('body').removeClass('beach winter').addClass('desert img-fluid');
+                }
+
+            });
+    });
+}
