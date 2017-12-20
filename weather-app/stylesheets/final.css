@@ -303,3 +303,21 @@ body .weather-info {
   max-width: 100%;
   height: auto;
 }
+
+.beach {
+  background-image: url("../images/beach.jpg");
+}
+
+.winter {
+  background-image: url("../images/winter.jpg")
+}
+
+.desert {
+  background-image: url("../images/desert.jpg")
+}
+
+.img-fluid {
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
