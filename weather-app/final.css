@@ -295,15 +295,15 @@ body .weather-info {
 }
 
 .beach {
-  background-image: url("../images/beach.jpg");
+  background-image: url("./images/beach.jpg");
 }
 
 .winter {
-  background-image: url("../images/winter.jpg")
+  background-image: url("./images/winter.jpg")
 }
 
 .desert {
-  background-image: url("../images/desert.jpg")
+  background-image: url("./images/desert.jpg")
 }
 
 .img-fluid {
