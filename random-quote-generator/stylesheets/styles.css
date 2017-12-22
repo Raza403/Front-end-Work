@@ -17,7 +17,8 @@ html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: transparent
 }
@@ -72,7 +73,8 @@ body {
     p::first-letter,
     p::first-line {
         text-shadow: none!important;
-        box-shadow: none!important
+        -webkit-box-shadow: none!important;
+                box-shadow: none!important
     }
     a,
     a:visited {
@@ -87,7 +89,8 @@ body {
 *,
 ::after,
 ::before {
-    box-sizing: inherit
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit
 }
 
 @-ms-viewport {
@@ -121,7 +124,8 @@ a:hover {
 [role=button],
 a,
 button {
-    touch-action: manipulation
+    -ms-touch-action: manipulation;
+        touch-action: manipulation
 }
 
 button:focus {
@@ -170,7 +174,9 @@ button {
         padding-left: 15px
     }
     .col-sm-6 {
-        flex: 0 0 50%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
         max-width: 50%
     }
     .offset-sm-3 {
@@ -186,7 +192,9 @@ button {
         padding-left: 15px
     }
     .col-md-6 {
-        flex: 0 0 50%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
         max-width: 50%
     }
     .offset-md-3 {
@@ -199,10 +207,15 @@ button {
     line-height: 1.25;
     text-align: center;
     white-space: nowrap;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     border: 1px solid transparent;
     padding: .5rem 1rem;
     border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out
 }
 
@@ -213,7 +226,8 @@ button {
 
 .btn:focus {
     outline: 0;
-    box-shadow: 0 0 0 2px rgba(2, 117, 216, .25)
+    -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, .25);
+            box-shadow: 0 0 0 2px rgba(2, 117, 216, .25)
 }
 
 .btn:disabled {
@@ -234,7 +248,8 @@ button {
 }
 
 .btn-primary:focus {
-    box-shadow: 0 0 0 2px rgba(2, 117, 216, .5)
+    -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, .5);
+            box-shadow: 0 0 0 2px rgba(2, 117, 216, .5)
 }
 
 .btn-primary:disabled {
