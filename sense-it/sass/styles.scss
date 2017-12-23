@@ -1,0 +1,17 @@
+@import "../bower_components/bootstrap/scss/bootstrap";
+@import "../bower_components/bootstrap/scss/_custom.scss";
+
+#shipping {
+    background-color: black;
+    color: white;
+    height: 45px;
+
+    p{
+        line-height: 1.6em;
+        letter-spacing: 0.2em;
+    }
+}
+
+.nav-item {
+    transition: color 0.4s ease 0s;
+}
