@@ -10332,6 +10332,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   background-color: black;
   color: white;
   height: 45px;
+  width: 100%;
 }
 /* line 9, ../sass/styles.scss */
 #shipping p {
@@ -10342,4 +10343,21 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 /* line 15, ../sass/styles.scss */
 .nav-item {
   transition: color 0.4s ease 0s;
+}
+
+@media (min-width: 992px) {
+  /* line 19, ../sass/styles.scss */
+  #crousal-wrapper {
+    width: 88%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  /* line 19, ../sass/styles.scss */
+  #crousal-wrapper {
+    position: absolute;
+    width: 90%;
+    right: 0;
+    left: 80px;
+  }
 }

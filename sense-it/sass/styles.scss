@@ -5,7 +5,7 @@
     background-color: black;
     color: white;
     height: 45px;
-
+    width: 100%;
     p{
         line-height: 1.6em;
         letter-spacing: 0.2em;
@@ -14,4 +14,18 @@
 
 .nav-item {
     transition: color 0.4s ease 0s;
+}
+
+#crousal-wrapper{
+    @media (min-width: 992px){
+    width: 88%;
+    margin: 0 auto;
+    }
+
+    @media (max-width: 991px){
+        position: absolute;
+        width: 90%;
+        right: 0;
+        left: 80px;
+    }
 }
