@@ -14,11 +14,12 @@
 </head>
 
 <body class=index id=page-top>
-  <div id="shipping" class="text-center col-12">
-    <p class="pt-2">Shipping all over the world</p>
-  </div>
-  <header>
-    <div class="row stickey-top">
+
+  <header class="fixed-top">
+    <div class="row" id="main-nav">
+      <div id="shipping" class="text-center col-12">
+        <p class="pt-2">Shipping all over the world</p>
+      </div>
       <div class="col-lg-4 col-md-12 text-center offset-lg-1" id="logo">
         <a href="" class="navbar-brand pl-5 ml-4">
           <img src="./images/logo/306218_22825edf34bb48cdb2a2a5d5b2b87a2f_mv2.png" alt="Logo-image">
@@ -64,9 +65,11 @@
   </header>
 
   <section id="crousal">
-    <div id="crousal-wrapper">
+    <div id="crousel-wrapper">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
+          <div>
+          </div>
           <div class="carousel-item active">
             <img class="d-block w-100" src="./images/crousal/slide-1.webp" alt="First slide">
           </div>
@@ -79,10 +82,23 @@
           <div class="carousel-item">
             <img class="d-block w-100" src="./images/crousal/slide-4.webp" alt="Fourth slide">
           </div>
+          <div class="main-text hidden-xs">
+            <div class="col-md-12 text-center">
+              <h1>Pre-order Now!</h1>
+              <p>Let's do this...let's make SENSE</p>
+              <p><span class="shirts-count">4</span>
+              <span class="shirts-count">4</span></p>
+              <div class="crousel-text pt-4">
+                  <p>SENSE-IT a new bamboo label<br>with high frequency</p>
+                  
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
+  <div id="height"></div>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"

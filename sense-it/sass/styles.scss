@@ -1,6 +1,8 @@
 @import "../bower_components/bootstrap/scss/bootstrap";
 @import "../bower_components/bootstrap/scss/_custom.scss";
 
+$crousel-shirts-color: #F5006A;
+
 #shipping {
     background-color: black;
     color: white;
@@ -16,7 +18,7 @@
     transition: color 0.4s ease 0s;
 }
 
-#crousal-wrapper{
+#crousel-wrapper{
     @media (min-width: 992px){
     width: 88%;
     margin: 0 auto;
@@ -28,4 +30,43 @@
         right: 0;
         left: 80px;
     }
+}
+
+#crousal{
+    margin-top: 200px;
+    img{
+        height: 550px;
+    }
+}
+
+#main-nav{
+    background-color: white;
+}
+
+.main-text
+{
+    position: absolute;
+    top: 90px;
+    width: 96.66666666666666%;
+    color: black;
+
+    h1{
+        font-weight: normal;
+    }
+    .shirts-count{
+        display: inline-block;
+        margin-right: 8px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        width: 50px;
+    }
+}
+
+.crousel-text{
+    background-color: white;
+    margin: 0 auto;
+    width: 470px;
+    height: 200px;
+    opacity: 0.5;
 }
