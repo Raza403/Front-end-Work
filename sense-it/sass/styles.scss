@@ -20,7 +20,7 @@ header {
     transition: color 0.4s ease 0s;
 }
 
-#crousel-wrapper {
+.wrapper {
     @media (min-width: 992px) {
         width: 88%;
         margin: 0 auto;
@@ -34,10 +34,10 @@ header {
 }
 
 #crousal {
-    @media (min-width: 992px){
-    margin-top: 200px;
+    @media (min-width: 992px) {
+        margin-top: 200px;
     }
-    @media (max-width: 991px){
+    @media (max-width: 991px) {
         margin-top: 300px;
     }
     img {
@@ -82,5 +82,107 @@ header {
     .btn-props:hover {
         color: white;
         background-color: $nav-link-hover-color;
+    }
+}
+
+#brief {
+    .wrapper {
+        @media (max-width: 991px) {
+            margin-top: 480px;
+        }
+        .text {
+            background-color: $brief-text-color;
+            h2 {
+                
+                font-size: 1.5rem;
+                font-weight: normal;
+                padding-top: 4rem;
+                
+            }
+            p {
+                font-size: 1rem;
+                padding-top: 1rem;
+                word-wrap: break-word;
+            }
+        }
+    }
+    .equel-left {
+        min-width: 400px;
+        height: 580px;
+        @media (min-width: 720px) {
+            width: 48.2%;
+            margin-right: 3.6%;
+        }
+        @media (max-width: 719px) {
+            width: 100%;
+            margin-top: 2rem;
+        }
+    }
+    .equel-right {
+        min-width: 400px;
+        height: 580px;
+        @media (min-width: 720px) {
+            width: 48.2%;
+        }
+        @media (max-width: 719px) {
+            width: 100%;
+            margin-top: 2rem;
+            right: 0;
+            left: 80px;
+        }
+    }
+    .larger {
+        min-width: 400px;
+        height: 580px;
+        @media (min-width: 720px) {
+            width: 57.5%;
+            margin-right: 3.8%;
+        }
+        @media (max-width: 719px) {
+            width: 100%;
+            margin-top: 2rem;
+        }
+    }
+    .smaller {
+        min-width: 400px;
+        height: 580px;
+        background-color: #F5006A;
+        @media (min-width: 720px) {
+            width: 38.7%;
+        }
+        @media (max-width: 719px) {
+            width: 100%;
+            margin-top: 2rem;
+            right: 0;
+            left: 80px;
+        }
+    }
+}
+
+.btn-shopnow, .btn-readmore {
+    transition: background-color 0.4s ease 0s;
+}
+
+.btn-shopnow {
+    color: #FFF;
+    background-color: black;
+    min-width: 142px;
+    line-height: 27px;
+    font-size: 1rem;
+    &:hover {
+        background-color: #2B6CA3;
+        color: white;
+    }
+}
+
+.btn-readmore{
+    color: #FFF;
+    background-color: black;
+    min-width: 142px;
+    line-height: 27px;
+    font-size: 1rem;
+    &:hover {
+        background-color: #808080;
+        color: white;
     }
 }

@@ -10352,14 +10352,14 @@ header {
 
 @media (min-width: 992px) {
   /* line 23, ../sass/styles.scss */
-  #crousel-wrapper {
+  .wrapper {
     width: 88%;
     margin: 0 auto;
   }
 }
 @media (max-width: 991px) {
   /* line 23, ../sass/styles.scss */
-  #crousel-wrapper {
+  .wrapper {
     position: absolute;
     width: 90%;
     right: 0;
@@ -10429,4 +10429,139 @@ header {
 .crousel-text .btn-props:hover {
   color: white;
   background-color: #CEA08A;
+}
+
+@media (max-width: 991px) {
+  /* line 89, ../sass/styles.scss */
+  #brief .wrapper {
+    margin-top: 480px;
+  }
+}
+/* line 93, ../sass/styles.scss */
+#brief .wrapper .text {
+  background-color: #FAEDED;
+}
+/* line 95, ../sass/styles.scss */
+#brief .wrapper .text h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-top: 4rem;
+}
+/* line 102, ../sass/styles.scss */
+#brief .wrapper .text p {
+  font-size: 1rem;
+  padding-top: 1rem;
+  word-wrap: break-word;
+}
+/* line 109, ../sass/styles.scss */
+#brief .equel-left {
+  min-width: 400px;
+  height: 580px;
+}
+@media (min-width: 720px) {
+  /* line 109, ../sass/styles.scss */
+  #brief .equel-left {
+    width: 48.2%;
+    margin-right: 3.6%;
+  }
+}
+@media (max-width: 719px) {
+  /* line 109, ../sass/styles.scss */
+  #brief .equel-left {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+/* line 121, ../sass/styles.scss */
+#brief .equel-right {
+  min-width: 400px;
+  height: 580px;
+}
+@media (min-width: 720px) {
+  /* line 121, ../sass/styles.scss */
+  #brief .equel-right {
+    width: 48.2%;
+  }
+}
+@media (max-width: 719px) {
+  /* line 121, ../sass/styles.scss */
+  #brief .equel-right {
+    width: 100%;
+    margin-top: 2rem;
+    right: 0;
+    left: 80px;
+  }
+}
+/* line 134, ../sass/styles.scss */
+#brief .larger {
+  min-width: 400px;
+  height: 580px;
+}
+@media (min-width: 720px) {
+  /* line 134, ../sass/styles.scss */
+  #brief .larger {
+    width: 57.5%;
+    margin-right: 3.8%;
+  }
+}
+@media (max-width: 719px) {
+  /* line 134, ../sass/styles.scss */
+  #brief .larger {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+/* line 146, ../sass/styles.scss */
+#brief .smaller {
+  min-width: 400px;
+  height: 580px;
+  background-color: #F5006A;
+}
+@media (min-width: 720px) {
+  /* line 146, ../sass/styles.scss */
+  #brief .smaller {
+    width: 38.7%;
+  }
+}
+@media (max-width: 719px) {
+  /* line 146, ../sass/styles.scss */
+  #brief .smaller {
+    width: 100%;
+    margin-top: 2rem;
+    right: 0;
+    left: 80px;
+  }
+}
+
+/* line 162, ../sass/styles.scss */
+.btn-shopnow, .btn-readmore {
+  transition: background-color 0.4s ease 0s;
+}
+
+/* line 166, ../sass/styles.scss */
+.btn-shopnow {
+  color: #FFF;
+  background-color: black;
+  min-width: 142px;
+  line-height: 27px;
+  font-size: 1rem;
+}
+/* line 172, ../sass/styles.scss */
+.btn-shopnow:hover {
+  background-color: #2B6CA3;
+  color: white;
+}
+
+/* line 178, ../sass/styles.scss */
+.btn-readmore {
+  color: #FFF;
+  background-color: black;
+  min-width: 142px;
+  line-height: 27px;
+  font-size: 1rem;
+}
+/* line 184, ../sass/styles.scss */
+.btn-readmore:hover {
+  background-color: #808080;
+  color: white;
 }
