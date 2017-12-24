@@ -10447,32 +10447,32 @@ header {
   font-weight: normal;
   padding-top: 4rem;
 }
-/* line 102, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 #brief .wrapper .text p {
   font-size: 1rem;
   padding-top: 1rem;
   word-wrap: break-word;
 }
-/* line 109, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 #brief .equel-left {
   min-width: 400px;
   height: 580px;
 }
-@media (min-width: 720px) {
-  /* line 109, ../sass/styles.scss */
+@media (min-width: 941px) {
+  /* line 108, ../sass/styles.scss */
   #brief .equel-left {
     width: 48.2%;
     margin-right: 3.6%;
   }
 }
-@media (max-width: 719px) {
-  /* line 109, ../sass/styles.scss */
+@media (max-width: 940px) {
+  /* line 108, ../sass/styles.scss */
   #brief .equel-left {
     width: 100%;
     margin-top: 2rem;
   }
 }
-/* line 120, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 #brief .equel-left img {
   max-width: 100%;
   min-height: 100%;
@@ -10482,13 +10482,13 @@ header {
   min-width: 400px;
   height: 580px;
 }
-@media (min-width: 720px) {
+@media (min-width: 941px) {
   /* line 125, ../sass/styles.scss */
   #brief .equel-right {
     width: 48.2%;
   }
 }
-@media (max-width: 719px) {
+@media (max-width: 940px) {
   /* line 125, ../sass/styles.scss */
   #brief .equel-right {
     width: 100%;
@@ -10497,39 +10497,39 @@ header {
     left: 80px;
   }
 }
-/* line 138, ../sass/styles.scss */
+/* line 139, ../sass/styles.scss */
 #brief .larger {
   min-width: 400px;
   height: 580px;
 }
-@media (min-width: 720px) {
-  /* line 138, ../sass/styles.scss */
+@media (min-width: 1190px) {
+  /* line 139, ../sass/styles.scss */
   #brief .larger {
     width: 57.5%;
     margin-right: 3.8%;
   }
 }
-@media (max-width: 719px) {
-  /* line 138, ../sass/styles.scss */
+@media (max-width: 1190px) {
+  /* line 139, ../sass/styles.scss */
   #brief .larger {
     width: 100%;
     margin-top: 2rem;
   }
 }
-/* line 150, ../sass/styles.scss */
+/* line 152, ../sass/styles.scss */
 #brief .smaller {
   min-width: 400px;
   height: 580px;
   background-color: #F5006A;
 }
-@media (min-width: 720px) {
-  /* line 150, ../sass/styles.scss */
+@media (min-width: 1190px) {
+  /* line 152, ../sass/styles.scss */
   #brief .smaller {
     width: 38.7%;
   }
 }
-@media (max-width: 719px) {
-  /* line 150, ../sass/styles.scss */
+@media (max-width: 1190px) {
+  /* line 152, ../sass/styles.scss */
   #brief .smaller {
     width: 100%;
     margin-top: 2rem;
@@ -10538,12 +10538,13 @@ header {
   }
 }
 
-/* line 166, ../sass/styles.scss */
-.btn-shopnow, .btn-readmore {
+/* line 169, ../sass/styles.scss */
+.btn-shopnow,
+.btn-readmore {
   transition: background-color 0.4s ease 0s;
 }
 
-/* line 170, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 .btn-shopnow {
   color: #FFF;
   background-color: black;
@@ -10551,13 +10552,13 @@ header {
   line-height: 27px;
   font-size: 1rem;
 }
-/* line 176, ../sass/styles.scss */
+/* line 179, ../sass/styles.scss */
 .btn-shopnow:hover {
   background-color: #2B6CA3;
   color: white;
 }
 
-/* line 182, ../sass/styles.scss */
+/* line 184, ../sass/styles.scss */
 .btn-readmore {
   color: #FFF;
   background-color: black;
@@ -10565,32 +10566,35 @@ header {
   line-height: 27px;
   font-size: 1rem;
 }
-/* line 188, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 .btn-readmore:hover {
   background-color: #808080;
   color: white;
 }
 
-/* line 194, ../sass/styles.scss */
+/* line 195, ../sass/styles.scss */
 .dropdown-item {
   font-size: 0.9rem;
   transition: color 0.4s ease 0s;
 }
 
 /* line 199, ../sass/styles.scss */
-.dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active, .dropdown-item:active {
+.dropdown-item:focus,
+.dropdown-item:hover,
+.dropdown-item.active,
+.dropdown-item:active {
   color: #CEA08A;
   text-decoration: none;
   background-color: white;
   font-size: 0.9rem;
 }
 
-/* line 206, ../sass/styles.scss */
+/* line 208, ../sass/styles.scss */
 .dropdown-menu {
   border: none;
 }
 
-/* line 210, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 .dropdown-toggle::after {
   display: none;
 }
@@ -10598,4 +10602,39 @@ header {
 /* line 214, ../sass/styles.scss */
 .dropdown:hover > .dropdown-menu {
   display: block;
+}
+
+/* line 218, ../sass/styles.scss */
+.text-ul {
+  background-color: #FAEDED;
+}
+/* line 220, ../sass/styles.scss */
+.text-ul h2 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  padding-top: 4rem;
+}
+/* line 225, ../sass/styles.scss */
+.text-ul li, .text-ul p {
+  font-size: 1.3rem;
+  padding-top: 1.3rem;
+  font-weight: normal;
+  word-wrap: break-word;
+}
+
+/* line 233, ../sass/styles.scss */
+.ul-left {
+  background-color: #F5006A;
+  height: 200px;
+  width: 70%;
+  margin: 0 auto;
+  display: table;
+}
+/* line 239, ../sass/styles.scss */
+.ul-left li {
+  text-align: left;
+}
+/* line 241, ../sass/styles.scss */
+.ul-left li p {
+  display: table-row;
 }

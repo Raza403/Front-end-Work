@@ -93,11 +93,9 @@ header {
         .text {
             background-color: $brief-text-color;
             h2 {
-                
                 font-size: 1.5rem;
                 font-weight: normal;
                 padding-top: 4rem;
-                
             }
             p {
                 font-size: 1rem;
@@ -106,67 +104,72 @@ header {
             }
         }
     }
-    .equel-left {
-        min-width: 400px;
-        height: 580px;
-        @media (min-width: 720px) {
-            width: 48.2%;
-            margin-right: 3.6%;
-        }
-        @media (max-width: 719px) {
-            width: 100%;
-            margin-top: 2rem;
-        }
-        img{
-            max-width: 100%;
-            min-height: 100%;
-        }
+
+.equel-left {
+    min-width: 400px;
+    height: 580px;
+    @media (min-width: 941px) {
+        width: 48.2%;
+        margin-right: 3.6%;
     }
-    .equel-right {
-        min-width: 400px;
-        height: 580px;
-        @media (min-width: 720px) {
-            width: 48.2%;
-        }
-        @media (max-width: 719px) {
-            width: 100%;
-            margin-top: 2rem;
-            right: 0;
-            left: 80px;
-        }
+    @media (max-width: 940px) {
+        width: 100%;
+        margin-top: 2rem;
     }
-    .larger {
-        min-width: 400px;
-        height: 580px;
-        @media (min-width: 720px) {
-            width: 57.5%;
-            margin-right: 3.8%;
-        }
-        @media (max-width: 719px) {
-            width: 100%;
-            margin-top: 2rem;
-        }
-    }
-    .smaller {
-        min-width: 400px;
-        height: 580px;
-        background-color: #F5006A;
-        @media (min-width: 720px) {
-            width: 38.7%;
-        }
-        @media (max-width: 719px) {
-            width: 100%;
-            margin-top: 2rem;
-            right: 0;
-            left: 80px;
-        }
+    img {
+        max-width: 100%;
+        min-height: 100%;
     }
 }
 
-.btn-shopnow, .btn-readmore {
+.equel-right {
+    min-width: 400px;
+    height: 580px;
+    @media (min-width: 941px) {
+        width: 48.2%;
+    }
+    @media (max-width: 940px) {
+        width: 100%;
+        margin-top: 2rem;
+        right: 0;
+        left: 80px;
+    }
+}
+
+.larger {
+    min-width: 400px;
+    height: 580px;
+    @media (min-width: 1190px) {
+        width: 57.5%;
+        margin-right: 3.8%;
+    }
+    @media (max-width: 1190px) {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+.smaller {
+    min-width: 400px;
+    height: 580px;
+    background-color: #F5006A;
+    @media (min-width: 1190px) {
+        width: 38.7%;
+    }
+    @media (max-width: 1190px) {
+        width: 100%;
+        margin-top: 2rem;
+        right: 0;
+        left: 80px;
+    }
+}
+
+
+}
+.btn-shopnow,
+.btn-readmore {
     transition: background-color 0.4s ease 0s;
 }
-
 .btn-shopnow {
     color: #FFF;
     background-color: black;
@@ -178,8 +181,7 @@ header {
         color: white;
     }
 }
-
-.btn-readmore{
+.btn-readmore {
     color: #FFF;
     background-color: black;
     min-width: 142px;
@@ -189,28 +191,55 @@ header {
         background-color: #808080;
         color: white;
     }
-
 }
 .dropdown-item {
     font-size: 0.9rem;
     transition: color 0.4s ease 0s;
 }
-
-.dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active, .dropdown-item:active {
+.dropdown-item:focus,
+.dropdown-item:hover,
+.dropdown-item.active,
+.dropdown-item:active {
     color: $nav-link-hover-color;
     text-decoration: none;
     background-color: white;
     font-size: 0.9rem;
-  }
-
-  .dropdown-menu {
-    border: none;
-  }
-
-  .dropdown-toggle::after {
-    display:none
 }
-
+.dropdown-menu {
+    border: none;
+}
+.dropdown-toggle::after {
+    display: none
+}
 .dropdown:hover>.dropdown-menu {
     display: block;
-  }
+}
+
+.text-ul {
+    background-color: $brief-text-color;
+    h2 {
+        font-size: 1.8rem;
+        font-weight: normal;
+        padding-top: 4rem;
+    }
+    li, p {
+        font-size: 1.3rem;
+        padding-top: 1.3rem;
+        font-weight: normal;
+        word-wrap: break-word;
+    }
+}
+
+.ul-left{
+    background-color: #F5006A;
+    height: 200px;
+    width: 70%;
+    margin: 0 auto;
+    display: table;
+    li{
+        text-align: left;
+        p{
+            display: table-row
+        }
+    }
+}
