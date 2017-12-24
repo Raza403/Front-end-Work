@@ -1,14 +1,16 @@
 @import "../bower_components/bootstrap/scss/bootstrap";
 @import "../bower_components/bootstrap/scss/_custom.scss";
-
 $crousel-shirts-color: #F5006A;
+header {
+    background-color: white;
+}
 
 #shipping {
     background-color: black;
     color: white;
     height: 45px;
     width: 100%;
-    p{
+    p {
         line-height: 1.6em;
         letter-spacing: 0.2em;
     }
@@ -18,13 +20,12 @@ $crousel-shirts-color: #F5006A;
     transition: color 0.4s ease 0s;
 }
 
-#crousel-wrapper{
-    @media (min-width: 992px){
-    width: 88%;
-    margin: 0 auto;
+#crousel-wrapper {
+    @media (min-width: 992px) {
+        width: 88%;
+        margin: 0 auto;
     }
-
-    @media (max-width: 991px){
+    @media (max-width: 991px) {
         position: absolute;
         width: 90%;
         right: 0;
@@ -32,28 +33,27 @@ $crousel-shirts-color: #F5006A;
     }
 }
 
-#crousal{
+#crousal {
+    @media (min-width: 992px){
     margin-top: 200px;
-    img{
-        height: 550px;
+    }
+    @media (max-width: 991px){
+        margin-top: 300px;
+    }
+    img {
+        height: 500px;
     }
 }
 
-#main-nav{
-    background-color: white;
-}
-
-.main-text
-{
+.main-text {
     position: absolute;
     top: 90px;
     width: 96.66666666666666%;
     color: black;
-
-    h1{
+    h1 {
         font-weight: normal;
     }
-    .shirts-count{
+    .shirts-count {
         display: inline-block;
         margin-right: 8px;
         background-color: black;
@@ -63,10 +63,24 @@ $crousel-shirts-color: #F5006A;
     }
 }
 
-.crousel-text{
-    background-color: white;
+.crousel-text {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 1.5rem;
     margin: 0 auto;
     width: 470px;
-    height: 200px;
-    opacity: 0.5;
+    height: 194px;
+    color: black;
+    .btn-min-block {
+        min-width: 142px;
+        line-height: 40px;
+    }
+    .btn-props {
+        color: #FFF;
+        background-color: black;
+        margin-right: 15px;
+    }
+    .btn-props:hover {
+        color: white;
+        background-color: $nav-link-hover-color;
+    }
 }

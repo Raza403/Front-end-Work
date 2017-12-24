@@ -10327,33 +10327,38 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/* line 6, ../sass/styles.scss */
+/* line 4, ../sass/styles.scss */
+header {
+  background-color: white;
+}
+
+/* line 8, ../sass/styles.scss */
 #shipping {
   background-color: black;
   color: white;
   height: 45px;
   width: 100%;
 }
-/* line 11, ../sass/styles.scss */
+/* line 13, ../sass/styles.scss */
 #shipping p {
   line-height: 1.6em;
   letter-spacing: 0.2em;
 }
 
-/* line 17, ../sass/styles.scss */
+/* line 19, ../sass/styles.scss */
 .nav-item {
   transition: color 0.4s ease 0s;
 }
 
 @media (min-width: 992px) {
-  /* line 21, ../sass/styles.scss */
+  /* line 23, ../sass/styles.scss */
   #crousel-wrapper {
     width: 88%;
     margin: 0 auto;
   }
 }
 @media (max-width: 991px) {
-  /* line 21, ../sass/styles.scss */
+  /* line 23, ../sass/styles.scss */
   #crousel-wrapper {
     position: absolute;
     width: 90%;
@@ -10362,21 +10367,24 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/* line 35, ../sass/styles.scss */
-#crousal {
-  margin-top: 200px;
+@media (min-width: 992px) {
+  /* line 36, ../sass/styles.scss */
+  #crousal {
+    margin-top: 200px;
+  }
 }
-/* line 37, ../sass/styles.scss */
+@media (max-width: 991px) {
+  /* line 36, ../sass/styles.scss */
+  #crousal {
+    margin-top: 300px;
+  }
+}
+/* line 43, ../sass/styles.scss */
 #crousal img {
-  height: 550px;
+  height: 500px;
 }
 
-/* line 42, ../sass/styles.scss */
-#main-nav {
-  background-color: white;
-}
-
-/* line 46, ../sass/styles.scss */
+/* line 48, ../sass/styles.scss */
 .main-text {
   position: absolute;
   top: 90px;
@@ -10399,9 +10407,26 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 /* line 66, ../sass/styles.scss */
 .crousel-text {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 1.5rem;
   margin: 0 auto;
   width: 470px;
-  height: 200px;
-  opacity: 0.5;
+  height: 194px;
+  color: black;
+}
+/* line 73, ../sass/styles.scss */
+.crousel-text .btn-min-block {
+  min-width: 142px;
+  line-height: 40px;
+}
+/* line 77, ../sass/styles.scss */
+.crousel-text .btn-props {
+  color: #FFF;
+  background-color: black;
+  margin-right: 15px;
+}
+/* line 82, ../sass/styles.scss */
+.crousel-text .btn-props:hover {
+  color: white;
+  background-color: #CEA08A;
 }
