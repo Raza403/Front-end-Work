@@ -10472,19 +10472,24 @@ header {
     margin-top: 2rem;
   }
 }
-/* line 121, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
+#brief .equel-left img {
+  max-width: 100%;
+  min-height: 100%;
+}
+/* line 125, ../sass/styles.scss */
 #brief .equel-right {
   min-width: 400px;
   height: 580px;
 }
 @media (min-width: 720px) {
-  /* line 121, ../sass/styles.scss */
+  /* line 125, ../sass/styles.scss */
   #brief .equel-right {
     width: 48.2%;
   }
 }
 @media (max-width: 719px) {
-  /* line 121, ../sass/styles.scss */
+  /* line 125, ../sass/styles.scss */
   #brief .equel-right {
     width: 100%;
     margin-top: 2rem;
@@ -10492,39 +10497,39 @@ header {
     left: 80px;
   }
 }
-/* line 134, ../sass/styles.scss */
+/* line 138, ../sass/styles.scss */
 #brief .larger {
   min-width: 400px;
   height: 580px;
 }
 @media (min-width: 720px) {
-  /* line 134, ../sass/styles.scss */
+  /* line 138, ../sass/styles.scss */
   #brief .larger {
     width: 57.5%;
     margin-right: 3.8%;
   }
 }
 @media (max-width: 719px) {
-  /* line 134, ../sass/styles.scss */
+  /* line 138, ../sass/styles.scss */
   #brief .larger {
     width: 100%;
     margin-top: 2rem;
   }
 }
-/* line 146, ../sass/styles.scss */
+/* line 150, ../sass/styles.scss */
 #brief .smaller {
   min-width: 400px;
   height: 580px;
   background-color: #F5006A;
 }
 @media (min-width: 720px) {
-  /* line 146, ../sass/styles.scss */
+  /* line 150, ../sass/styles.scss */
   #brief .smaller {
     width: 38.7%;
   }
 }
 @media (max-width: 719px) {
-  /* line 146, ../sass/styles.scss */
+  /* line 150, ../sass/styles.scss */
   #brief .smaller {
     width: 100%;
     margin-top: 2rem;
@@ -10533,12 +10538,12 @@ header {
   }
 }
 
-/* line 162, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .btn-shopnow, .btn-readmore {
   transition: background-color 0.4s ease 0s;
 }
 
-/* line 166, ../sass/styles.scss */
+/* line 170, ../sass/styles.scss */
 .btn-shopnow {
   color: #FFF;
   background-color: black;
@@ -10546,13 +10551,13 @@ header {
   line-height: 27px;
   font-size: 1rem;
 }
-/* line 172, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 .btn-shopnow:hover {
   background-color: #2B6CA3;
   color: white;
 }
 
-/* line 178, ../sass/styles.scss */
+/* line 182, ../sass/styles.scss */
 .btn-readmore {
   color: #FFF;
   background-color: black;
@@ -10560,8 +10565,37 @@ header {
   line-height: 27px;
   font-size: 1rem;
 }
-/* line 184, ../sass/styles.scss */
+/* line 188, ../sass/styles.scss */
 .btn-readmore:hover {
   background-color: #808080;
   color: white;
+}
+
+/* line 194, ../sass/styles.scss */
+.dropdown-item {
+  font-size: 0.9rem;
+  transition: color 0.4s ease 0s;
+}
+
+/* line 199, ../sass/styles.scss */
+.dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active, .dropdown-item:active {
+  color: #CEA08A;
+  text-decoration: none;
+  background-color: white;
+  font-size: 0.9rem;
+}
+
+/* line 206, ../sass/styles.scss */
+.dropdown-menu {
+  border: none;
+}
+
+/* line 210, ../sass/styles.scss */
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* line 214, ../sass/styles.scss */
+.dropdown:hover > .dropdown-menu {
+  display: block;
 }

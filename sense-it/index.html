@@ -39,8 +39,16 @@
                     <span class="sr-only">(current)</span>
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link pl-4" href="#">A B O U T</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle pl-4" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="false"
+                    aria-expanded="false">
+                    A B O U T
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Claudia Robert</a>
+                    <a class="dropdown-item" href="#">SENSE-IT</a>
+                    <a class="dropdown-item" href="#">Bamboo</a>
+                  </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link pl-4" href="#">S H O P</a>
@@ -108,7 +116,10 @@
   <section id="brief" class="pt-5">
     <div class="wrapper row">
       <!-- First two divs are equel in width, then after that image width is shorter than text width -->
-      <div class="equel-left"></div>
+      <!-- This image size also differs from the design provided but using it for till availability of original one -->
+      <div class="equel-left">
+        <img src="./images/crousal/slide-3.webp" alt="">
+      </div>
       <div class="equel-right text text-center">
         <h2>Welcome to a new fashion
           <br> experience!</h2>
@@ -121,6 +132,7 @@
           <a class="btn btn-sm btn-shopnow mt-3" href="">SHOP NOW</a>
         </div>
       </div>
+      <!-- Second part start here, text div is larger than the image div so designed like that -->
       <div class="larger mt-5 text text-center">
         <h2>High frequency energy?</h2>
         <p>SENSE-IT is an initiative of Claudia Robert. She provides
@@ -141,6 +153,7 @@
           <a class="btn btn-sm btn-readmore mt-3" href="">READ MORE</a>
         </div>
       </div>
+      <!-- Don't have the image so put a dummy background color, both divs are aligned with the design -->
       <div class="smaller mt-5"></div>
     </div>
   </section>
@@ -150,6 +163,16 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
     crossorigin="anonymous"></script>
+    <!-- Added this script to make about munu open on hover, If you have better solution you can edit it. -->
+  <script>
+    $('body').on('mouseenter mouseleave', '.dropdown', function (e) {
+      var _d = $(e.target).closest('.dropdown');
+      _d.addClass('show');
+      setTimeout(function () {
+        _d[_d.is(':hover') ? 'addClass' : 'removeClass']('show');
+      }, 100);
+    });
+  </script>
 </body>
 
 </html>

@@ -117,6 +117,10 @@ header {
             width: 100%;
             margin-top: 2rem;
         }
+        img{
+            max-width: 100%;
+            min-height: 100%;
+        }
     }
     .equel-right {
         min-width: 400px;
@@ -185,4 +189,28 @@ header {
         background-color: #808080;
         color: white;
     }
+
 }
+.dropdown-item {
+    font-size: 0.9rem;
+    transition: color 0.4s ease 0s;
+}
+
+.dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active, .dropdown-item:active {
+    color: $nav-link-hover-color;
+    text-decoration: none;
+    background-color: white;
+    font-size: 0.9rem;
+  }
+
+  .dropdown-menu {
+    border: none;
+  }
+
+  .dropdown-toggle::after {
+    display:none
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
