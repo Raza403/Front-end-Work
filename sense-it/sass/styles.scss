@@ -96,6 +96,7 @@ header {
 
 // Crousel section
 .wrapper {
+    min-width: 400px;
     @media (min-width: 992px) {
         width: 88%;
         margin: 0 auto;
@@ -292,16 +293,23 @@ header {
     }
 }
 
-.ul-left{
-    background-color: #F5006A;
-    height: 200px;
-    width: 70%;
-    margin: 0 auto;
-    display: table;
-    li{
-        text-align: left;
-        p{
-            display: table-row
-        }
+
+
+
+
+
+
+// Footer
+footer{
+    position: relative;
+    @media (max-width: 992px){
+        top: 2950px;
+    }
+    @media (max-width: 940px){
+        top: 4230px;
+    }
+
+    hr{
+        border-color: inherit;
     }
 }
