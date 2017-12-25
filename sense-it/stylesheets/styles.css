@@ -10327,258 +10327,73 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/* line 4, ../sass/styles.scss */
+/* line 21, ../sass/styles.scss */
 header {
   background-color: white;
 }
 
-/* line 8, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 #shipping {
   background-color: black;
   color: white;
   height: 45px;
   width: 100%;
 }
-/* line 13, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 #shipping p {
   line-height: 1.6em;
   letter-spacing: 0.2em;
 }
 
-/* line 19, ../sass/styles.scss */
+/* line 36, ../sass/styles.scss */
 .nav-item {
   transition: color 0.4s ease 0s;
 }
 
+/* line 40, ../sass/styles.scss */
+.navbar-para {
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 992px) {
-  /* line 23, ../sass/styles.scss */
-  .wrapper {
-    width: 88%;
+  /* line 45, ../sass/styles.scss */
+  .logo-padding {
+    padding-left: 3rem;
+  }
+}
+@media (max-width: 992px) {
+  /* line 45, ../sass/styles.scss */
+  .logo-padding {
     margin: 0 auto;
   }
 }
-@media (max-width: 991px) {
-  /* line 23, ../sass/styles.scss */
-  .wrapper {
-    position: absolute;
-    width: 90%;
-    right: 0;
-    left: 80px;
-  }
-}
 
-@media (min-width: 992px) {
-  /* line 36, ../sass/styles.scss */
-  #crousal {
-    margin-top: 200px;
+@media (min-width: 1100px) {
+  /* line 54, ../sass/styles.scss */
+  #logo {
+    margin-left: 8.33333%;
   }
 }
-@media (max-width: 991px) {
-  /* line 36, ../sass/styles.scss */
-  #crousal {
-    margin-top: 300px;
+@media (max-width: 1100px) {
+  /* line 54, ../sass/styles.scss */
+  #logo {
+    margin: 0 auto;
   }
 }
-/* line 43, ../sass/styles.scss */
-#crousal img {
-  height: 500px;
-}
-
-/* line 48, ../sass/styles.scss */
-.main-text {
-  position: absolute;
-  top: 90px;
-  width: 96.66666666666666%;
-  color: black;
-}
-/* line 53, ../sass/styles.scss */
-.main-text h1 {
-  font-weight: normal;
-}
-/* line 56, ../sass/styles.scss */
-.main-text .shirts-count {
-  display: inline-block;
-  margin-right: 8px;
-  background-color: black;
-  color: white;
-  font-size: 30px;
-  width: 50px;
-}
-
-/* line 66, ../sass/styles.scss */
-.crousel-text {
-  background-color: rgba(255, 255, 255, 0.6);
-  font-size: 1.5rem;
-  margin: 0 auto;
-  width: 470px;
-  height: 194px;
-  color: black;
-}
-/* line 73, ../sass/styles.scss */
-.crousel-text .btn-min-block {
-  min-width: 142px;
-  line-height: 40px;
-}
-/* line 77, ../sass/styles.scss */
-.crousel-text .btn-props {
-  color: #FFF;
-  background-color: black;
-  margin-right: 15px;
-}
-/* line 82, ../sass/styles.scss */
-.crousel-text .btn-props:hover {
-  color: white;
-  background-color: #CEA08A;
-}
-
-@media (max-width: 991px) {
-  /* line 89, ../sass/styles.scss */
-  #brief .wrapper {
-    margin-top: 480px;
-  }
-}
-/* line 93, ../sass/styles.scss */
-#brief .wrapper .text {
-  background-color: #FAEDED;
-}
-/* line 95, ../sass/styles.scss */
-#brief .wrapper .text h2 {
-  font-size: 1.5rem;
-  font-weight: normal;
-  padding-top: 4rem;
-}
-/* line 100, ../sass/styles.scss */
-#brief .wrapper .text p {
-  font-size: 1rem;
-  padding-top: 1rem;
-  word-wrap: break-word;
-}
-/* line 108, ../sass/styles.scss */
-#brief .equel-left {
-  min-width: 400px;
-  height: 580px;
-}
-@media (min-width: 941px) {
-  /* line 108, ../sass/styles.scss */
-  #brief .equel-left {
-    width: 48.2%;
-    margin-right: 3.6%;
-  }
-}
-@media (max-width: 940px) {
-  /* line 108, ../sass/styles.scss */
-  #brief .equel-left {
-    width: 100%;
-    margin-top: 2rem;
-  }
-}
-/* line 119, ../sass/styles.scss */
-#brief .equel-left img {
+/* line 61, ../sass/styles.scss */
+#logo img {
   max-width: 100%;
-  min-height: 100%;
-}
-/* line 125, ../sass/styles.scss */
-#brief .equel-right {
-  min-width: 400px;
-  height: 580px;
-}
-@media (min-width: 941px) {
-  /* line 125, ../sass/styles.scss */
-  #brief .equel-right {
-    width: 48.2%;
-  }
-}
-@media (max-width: 940px) {
-  /* line 125, ../sass/styles.scss */
-  #brief .equel-right {
-    width: 100%;
-    margin-top: 2rem;
-    right: 0;
-    left: 80px;
-  }
-}
-/* line 139, ../sass/styles.scss */
-#brief .larger {
-  min-width: 400px;
-  height: 580px;
-}
-@media (min-width: 1190px) {
-  /* line 139, ../sass/styles.scss */
-  #brief .larger {
-    width: 57.5%;
-    margin-right: 3.8%;
-  }
-}
-@media (max-width: 1190px) {
-  /* line 139, ../sass/styles.scss */
-  #brief .larger {
-    width: 100%;
-    margin-top: 2rem;
-  }
-}
-/* line 152, ../sass/styles.scss */
-#brief .smaller {
-  min-width: 400px;
-  height: 580px;
-  background-color: #F5006A;
-}
-@media (min-width: 1190px) {
-  /* line 152, ../sass/styles.scss */
-  #brief .smaller {
-    width: 38.7%;
-  }
-}
-@media (max-width: 1190px) {
-  /* line 152, ../sass/styles.scss */
-  #brief .smaller {
-    width: 100%;
-    margin-top: 2rem;
-    right: 0;
-    left: 80px;
-  }
+  height: auto;
 }
 
-/* line 169, ../sass/styles.scss */
-.btn-shopnow,
-.btn-readmore {
-  transition: background-color 0.4s ease 0s;
-}
-
-/* line 173, ../sass/styles.scss */
-.btn-shopnow {
-  color: #FFF;
-  background-color: black;
-  min-width: 142px;
-  line-height: 27px;
-  font-size: 1rem;
-}
-/* line 179, ../sass/styles.scss */
-.btn-shopnow:hover {
-  background-color: #2B6CA3;
-  color: white;
-}
-
-/* line 184, ../sass/styles.scss */
-.btn-readmore {
-  color: #FFF;
-  background-color: black;
-  min-width: 142px;
-  line-height: 27px;
-  font-size: 1rem;
-}
-/* line 190, ../sass/styles.scss */
-.btn-readmore:hover {
-  background-color: #808080;
-  color: white;
-}
-
-/* line 195, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 .dropdown-item {
   font-size: 0.9rem;
   transition: color 0.4s ease 0s;
 }
 
-/* line 199, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 .dropdown-item:focus,
 .dropdown-item:hover,
 .dropdown-item.active,
@@ -10589,32 +10404,254 @@ header {
   font-size: 0.9rem;
 }
 
-/* line 208, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 .dropdown-menu {
   border: none;
 }
 
-/* line 211, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 .dropdown-toggle::after {
   display: none;
 }
 
-/* line 214, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
 
-/* line 218, ../sass/styles.scss */
+@media (min-width: 992px) {
+  /* line 98, ../sass/styles.scss */
+  .wrapper {
+    width: 88%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  /* line 98, ../sass/styles.scss */
+  .wrapper {
+    position: absolute;
+    width: 90%;
+    right: 0;
+    left: 80px;
+  }
+}
+
+@media (min-width: 575px) {
+  /* line 111, ../sass/styles.scss */
+  #crousal {
+    margin-top: 200px;
+  }
+}
+@media (max-width: 575px) {
+  /* line 111, ../sass/styles.scss */
+  #crousal {
+    margin-top: 300px;
+  }
+}
+/* line 118, ../sass/styles.scss */
+#crousal img {
+  height: 500px;
+}
+
+/* line 123, ../sass/styles.scss */
+.main-text {
+  position: absolute;
+  top: 90px;
+  width: 96.66666666666666%;
+  color: black;
+}
+/* line 128, ../sass/styles.scss */
+.main-text h1 {
+  font-weight: normal;
+}
+/* line 131, ../sass/styles.scss */
+.main-text .shirts-count {
+  display: inline-block;
+  margin-right: 8px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  width: 50px;
+}
+
+/* line 141, ../sass/styles.scss */
+.crousel-text {
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 1.5rem;
+  margin: 0 auto;
+  width: 470px;
+  height: 194px;
+  color: black;
+}
+/* line 148, ../sass/styles.scss */
+.crousel-text .btn-min-block {
+  min-width: 142px;
+  line-height: 40px;
+}
+/* line 152, ../sass/styles.scss */
+.crousel-text .btn-props {
+  color: #FFF;
+  background-color: black;
+  margin-right: 15px;
+}
+/* line 157, ../sass/styles.scss */
+.crousel-text .btn-props:hover {
+  color: white;
+  background-color: #CEA08A;
+}
+
+@media (max-width: 991px) {
+  /* line 172, ../sass/styles.scss */
+  #brief .wrapper {
+    margin-top: 480px;
+  }
+}
+/* line 176, ../sass/styles.scss */
+#brief .wrapper .text {
+  background-color: #FAEDED;
+}
+/* line 178, ../sass/styles.scss */
+#brief .wrapper .text h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-top: 4rem;
+}
+/* line 183, ../sass/styles.scss */
+#brief .wrapper .text p {
+  font-size: 1rem;
+  padding-top: 1rem;
+  word-wrap: break-word;
+}
+/* line 191, ../sass/styles.scss */
+#brief .equel-left {
+  min-width: 400px;
+  height: 580px;
+}
+@media (min-width: 941px) {
+  /* line 191, ../sass/styles.scss */
+  #brief .equel-left {
+    width: 48.2%;
+    margin-right: 3.6%;
+  }
+}
+@media (max-width: 940px) {
+  /* line 191, ../sass/styles.scss */
+  #brief .equel-left {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+/* line 202, ../sass/styles.scss */
+#brief .equel-left img {
+  max-width: 100%;
+  min-height: 100%;
+}
+/* line 208, ../sass/styles.scss */
+#brief .equel-right {
+  min-width: 400px;
+  height: 580px;
+}
+@media (min-width: 941px) {
+  /* line 208, ../sass/styles.scss */
+  #brief .equel-right {
+    width: 48.2%;
+  }
+}
+@media (max-width: 940px) {
+  /* line 208, ../sass/styles.scss */
+  #brief .equel-right {
+    width: 100%;
+    margin-top: 2rem;
+    right: 0;
+    left: 80px;
+  }
+}
+/* line 222, ../sass/styles.scss */
+#brief .larger {
+  min-width: 400px;
+  height: 580px;
+}
+@media (min-width: 1190px) {
+  /* line 222, ../sass/styles.scss */
+  #brief .larger {
+    width: 57.5%;
+    margin-right: 3.8%;
+  }
+}
+@media (max-width: 1190px) {
+  /* line 222, ../sass/styles.scss */
+  #brief .larger {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+/* line 235, ../sass/styles.scss */
+#brief .smaller {
+  min-width: 400px;
+  height: 580px;
+  background-color: #F5006A;
+}
+@media (min-width: 1190px) {
+  /* line 235, ../sass/styles.scss */
+  #brief .smaller {
+    width: 38.7%;
+  }
+}
+@media (max-width: 1190px) {
+  /* line 235, ../sass/styles.scss */
+  #brief .smaller {
+    width: 100%;
+    margin-top: 2rem;
+    right: 0;
+    left: 80px;
+  }
+}
+
+/* line 252, ../sass/styles.scss */
+.btn-shopnow,
+.btn-readmore {
+  transition: background-color 0.4s ease 0s;
+}
+
+/* line 256, ../sass/styles.scss */
+.btn-shopnow {
+  color: #FFF;
+  background-color: black;
+  min-width: 142px;
+  line-height: 27px;
+  font-size: 1rem;
+}
+/* line 262, ../sass/styles.scss */
+.btn-shopnow:hover {
+  background-color: #2B6CA3;
+  color: white;
+}
+
+/* line 267, ../sass/styles.scss */
+.btn-readmore {
+  color: #FFF;
+  background-color: black;
+  min-width: 142px;
+  line-height: 27px;
+  font-size: 1rem;
+}
+/* line 273, ../sass/styles.scss */
+.btn-readmore:hover {
+  background-color: #808080;
+  color: white;
+}
+
+/* line 280, ../sass/styles.scss */
 .text-ul {
   background-color: #FAEDED;
 }
-/* line 220, ../sass/styles.scss */
+/* line 282, ../sass/styles.scss */
 .text-ul h2 {
   font-size: 1.8rem;
   font-weight: normal;
   padding-top: 4rem;
 }
-/* line 225, ../sass/styles.scss */
+/* line 287, ../sass/styles.scss */
 .text-ul li, .text-ul p {
   font-size: 1.3rem;
   padding-top: 1.3rem;
@@ -10622,7 +10659,7 @@ header {
   word-wrap: break-word;
 }
 
-/* line 233, ../sass/styles.scss */
+/* line 295, ../sass/styles.scss */
 .ul-left {
   background-color: #F5006A;
   height: 200px;
@@ -10630,11 +10667,11 @@ header {
   margin: 0 auto;
   display: table;
 }
-/* line 239, ../sass/styles.scss */
+/* line 301, ../sass/styles.scss */
 .ul-left li {
   text-align: left;
 }
-/* line 241, ../sass/styles.scss */
+/* line 303, ../sass/styles.scss */
 .ul-left li p {
   display: table-row;
 }

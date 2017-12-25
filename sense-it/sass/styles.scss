@@ -1,6 +1,23 @@
 @import "../bower_components/bootstrap/scss/bootstrap";
 @import "../bower_components/bootstrap/scss/_custom.scss";
+
+
+// Custom Variables
 $crousel-shirts-color: #F5006A;
+$nav-link-hover-color:              #CEA08A;
+$brief-text-color:                  #FAEDED;
+
+$navbar-light-color:                rgba($black, 1);
+$navbar-light-hover-color:          rgba($nav-link-hover-color, 1);
+$navbar-light-active-color:         rgba($nav-link-hover-color, 1);
+$navbar-light-disabled-color:       rgba($black, 1);
+$navbar-light-toggler-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-light-toggler-border:       rgba($black, 1);
+
+
+
+
+// Header section
 header {
     background-color: white;
 }
@@ -20,6 +37,64 @@ header {
     transition: color 0.4s ease 0s;
 }
 
+.navbar-para {
+    width: 100%;
+    height: auto;
+}
+
+.logo-padding{
+    @media (min-width: 992px){
+    padding-left: 3rem;
+    }
+    @media (max-width: 992px){
+        margin: 0 auto;
+    }
+}
+
+#logo{
+    @media (min-width: 1100px){
+        margin-left: 8.33333%;
+    } 
+    @media (max-width: 1100px){
+        margin: 0 auto;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.dropdown-item {
+    font-size: 0.9rem;
+    transition: color 0.4s ease 0s;
+}
+.dropdown-item:focus,
+.dropdown-item:hover,
+.dropdown-item.active,
+.dropdown-item:active {
+    color: $nav-link-hover-color;
+    text-decoration: none;
+    background-color: white;
+    font-size: 0.9rem;
+}
+.dropdown-menu {
+    border: none;
+}
+.dropdown-toggle::after {
+    display: none
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+
+
+
+
+
+
+
+// Crousel section
 .wrapper {
     @media (min-width: 992px) {
         width: 88%;
@@ -34,10 +109,10 @@ header {
 }
 
 #crousal {
-    @media (min-width: 992px) {
+    @media (min-width: 575px) {
         margin-top: 200px;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 575px) {
         margin-top: 300px;
     }
     img {
@@ -84,6 +159,14 @@ header {
         background-color: $nav-link-hover-color;
     }
 }
+
+
+
+
+
+
+
+// Brief section starts here
 
 #brief {
     .wrapper {
@@ -192,28 +275,7 @@ header {
         color: white;
     }
 }
-.dropdown-item {
-    font-size: 0.9rem;
-    transition: color 0.4s ease 0s;
-}
-.dropdown-item:focus,
-.dropdown-item:hover,
-.dropdown-item.active,
-.dropdown-item:active {
-    color: $nav-link-hover-color;
-    text-decoration: none;
-    background-color: white;
-    font-size: 0.9rem;
-}
-.dropdown-menu {
-    border: none;
-}
-.dropdown-toggle::after {
-    display: none
-}
-.dropdown:hover>.dropdown-menu {
-    display: block;
-}
+
 
 .text-ul {
     background-color: $brief-text-color;
