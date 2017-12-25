@@ -347,6 +347,30 @@ input {
     border-right:1px solid black;
 }
 
+
 .info-section{
-    margin-left: 4rem;
+    margin-left: 9%;
+    padding-top: 3.2rem;
+    a{
+        text-decoration: none;
+        font-size: 1rem;
+        color: #000;
+        &:hover{
+            color: #000;
+        }
+        &:focus{
+            color: #000;
+        }
+        &:active{
+            color: #000;
+        }
+
+    }
+}
+
+.div-30{
+    max-width: 30%;
+}
+.div-39{
+    max-width: 39%;
 }

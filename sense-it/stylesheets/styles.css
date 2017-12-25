@@ -10769,7 +10769,36 @@ input:hover {
   border-right: 1px solid black;
 }
 
-/* line 350, ../sass/styles.scss */
+/* line 351, ../sass/styles.scss */
 .info-section {
-  margin-left: 4rem;
+  margin-left: 9%;
+  padding-top: 3.2rem;
+}
+/* line 354, ../sass/styles.scss */
+.info-section a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+}
+/* line 358, ../sass/styles.scss */
+.info-section a:hover {
+  color: #000;
+}
+/* line 361, ../sass/styles.scss */
+.info-section a:focus {
+  color: #000;
+}
+/* line 364, ../sass/styles.scss */
+.info-section a:active {
+  color: #000;
+}
+
+/* line 371, ../sass/styles.scss */
+.div-30 {
+  max-width: 30%;
+}
+
+/* line 374, ../sass/styles.scss */
+.div-39 {
+  max-width: 39%;
 }
