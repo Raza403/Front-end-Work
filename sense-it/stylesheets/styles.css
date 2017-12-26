@@ -10327,90 +10327,96 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/* line 21, ../sass/styles.scss */
+/* line 20, ../sass/styles.scss */
+.heart {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* line 25, ../sass/styles.scss */
 header {
   background-color: white;
 }
 
-/* line 25, ../sass/styles.scss */
+/* line 29, ../sass/styles.scss */
 #shipping {
   background-color: black;
   color: white;
   height: 45px;
   width: 100%;
 }
-/* line 30, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 #shipping p {
   line-height: 1.6em;
   letter-spacing: 0.2em;
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .nav-item {
   transition: color 0.4s ease 0s;
 }
 
-/* line 39, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 .shopping-bag {
   height: 1.8rem;
   width: 1.8rem;
   margin-right: 5.3rem;
 }
 @media (max-width: 1200px) {
-  /* line 39, ../sass/styles.scss */
+  /* line 43, ../sass/styles.scss */
   .shopping-bag {
     margin-top: 4rem;
   }
 }
 
-/* line 47, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 #navbar-para {
   margin: 0 auto;
 }
 
 @media (min-width: 992px) {
-  /* line 51, ../sass/styles.scss */
+  /* line 55, ../sass/styles.scss */
   .logo-padding {
     padding-left: 3rem;
   }
 }
 @media (max-width: 992px) {
-  /* line 51, ../sass/styles.scss */
+  /* line 55, ../sass/styles.scss */
   .logo-padding {
     margin: 0 auto;
   }
 }
 
-/* line 60, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 nav {
   margin-left: 2.7rem;
 }
 
 @media (min-width: 1100px) {
-  /* line 63, ../sass/styles.scss */
+  /* line 67, ../sass/styles.scss */
   #logo {
     margin-left: 8.33333%;
   }
 }
 @media (max-width: 1100px) {
-  /* line 63, ../sass/styles.scss */
+  /* line 67, ../sass/styles.scss */
   #logo {
     margin: 0 auto;
   }
 }
-/* line 70, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 #logo img {
   min-width: 100%;
   height: auto;
 }
 
-/* line 76, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 .dropdown-item {
   font-size: 0.9rem;
   transition: color 0.4s ease 0s;
 }
 
-/* line 81, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 .dropdown-item:focus,
 .dropdown-item:hover,
 .dropdown-item.active,
@@ -10421,34 +10427,34 @@ nav {
   font-size: 0.9rem;
 }
 
-/* line 91, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 .dropdown-menu {
   border: none;
 }
 
-/* line 95, ../sass/styles.scss */
+/* line 99, ../sass/styles.scss */
 .dropdown-toggle::after {
   display: none;
 }
 
-/* line 99, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
 
-/* line 107, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 .wrapper {
   min-width: 400px;
 }
 @media (min-width: 992px) {
-  /* line 107, ../sass/styles.scss */
+  /* line 111, ../sass/styles.scss */
   .wrapper {
     width: 88%;
     margin: 0 auto;
   }
 }
 @media (max-width: 991px) {
-  /* line 107, ../sass/styles.scss */
+  /* line 111, ../sass/styles.scss */
   .wrapper {
     position: absolute;
     width: 90%;
@@ -10458,34 +10464,34 @@ nav {
 }
 
 @media (min-width: 575px) {
-  /* line 121, ../sass/styles.scss */
+  /* line 125, ../sass/styles.scss */
   #crousal {
     margin-top: 200px;
   }
 }
 @media (max-width: 575px) {
-  /* line 121, ../sass/styles.scss */
+  /* line 125, ../sass/styles.scss */
   #crousal {
     margin-top: 300px;
   }
 }
-/* line 128, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 #crousal img {
   height: 500px;
 }
 
-/* line 133, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 .main-text {
   position: absolute;
   top: 90px;
   width: 96.66666666666666%;
   color: black;
 }
-/* line 138, ../sass/styles.scss */
+/* line 142, ../sass/styles.scss */
 .main-text h1 {
   font-weight: normal;
 }
-/* line 141, ../sass/styles.scss */
+/* line 145, ../sass/styles.scss */
 .main-text .shirts-count {
   display: inline-block;
   margin-right: 8px;
@@ -10495,7 +10501,7 @@ nav {
   width: 50px;
 }
 
-/* line 151, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 .crousel-text {
   background-color: rgba(255, 255, 255, 0.6);
   font-size: 1.5rem;
@@ -10504,82 +10510,82 @@ nav {
   height: 194px;
   color: black;
 }
-/* line 158, ../sass/styles.scss */
+/* line 162, ../sass/styles.scss */
 .crousel-text .btn-min-block {
   min-width: 142px;
   line-height: 40px;
 }
-/* line 162, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .crousel-text .btn-props {
   color: #FFF;
   background-color: black;
   margin-right: 15px;
 }
-/* line 167, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 .crousel-text .btn-props:hover {
   color: white;
   background-color: #CEA08A;
 }
 
 @media (max-width: 991px) {
-  /* line 179, ../sass/styles.scss */
+  /* line 183, ../sass/styles.scss */
   #brief .wrapper {
     margin-top: 480px;
   }
 }
-/* line 183, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 #brief .wrapper .text {
   background-color: #FAEDED;
 }
-/* line 185, ../sass/styles.scss */
+/* line 189, ../sass/styles.scss */
 #brief .wrapper .text h2 {
   font-size: 1.5rem;
   font-weight: normal;
   padding-top: 4rem;
 }
-/* line 190, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 #brief .wrapper .text p {
   font-size: 1rem;
   padding-top: 1rem;
   word-wrap: break-word;
 }
-/* line 197, ../sass/styles.scss */
+/* line 201, ../sass/styles.scss */
 #brief .equel-left {
   min-width: 400px;
   height: 580px;
 }
 @media (min-width: 941px) {
-  /* line 197, ../sass/styles.scss */
+  /* line 201, ../sass/styles.scss */
   #brief .equel-left {
     width: 48.2%;
     margin-right: 3.6%;
   }
 }
 @media (max-width: 940px) {
-  /* line 197, ../sass/styles.scss */
+  /* line 201, ../sass/styles.scss */
   #brief .equel-left {
     width: 100%;
     margin-top: 2rem;
   }
 }
-/* line 208, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 #brief .equel-left img {
   max-width: 100%;
   min-height: 100%;
 }
-/* line 213, ../sass/styles.scss */
+/* line 217, ../sass/styles.scss */
 #brief .equel-right {
   min-width: 400px;
   height: 580px;
 }
 @media (min-width: 941px) {
-  /* line 213, ../sass/styles.scss */
+  /* line 217, ../sass/styles.scss */
   #brief .equel-right {
     width: 48.2%;
   }
 }
 @media (max-width: 940px) {
-  /* line 213, ../sass/styles.scss */
+  /* line 217, ../sass/styles.scss */
   #brief .equel-right {
     width: 100%;
     margin-top: 2rem;
@@ -10587,38 +10593,38 @@ nav {
     left: 80px;
   }
 }
-/* line 226, ../sass/styles.scss */
+/* line 230, ../sass/styles.scss */
 #brief .larger {
   min-width: 400px;
   height: 580px;
 }
 @media (min-width: 1190px) {
-  /* line 226, ../sass/styles.scss */
+  /* line 230, ../sass/styles.scss */
   #brief .larger {
     width: 57.5%;
     margin-right: 3.8%;
   }
 }
 @media (max-width: 1190px) {
-  /* line 226, ../sass/styles.scss */
+  /* line 230, ../sass/styles.scss */
   #brief .larger {
     width: 100%;
     margin-top: 2rem;
   }
 }
-/* line 238, ../sass/styles.scss */
+/* line 242, ../sass/styles.scss */
 #brief .smaller {
   min-width: 400px;
   height: 580px;
 }
 @media (min-width: 1190px) {
-  /* line 238, ../sass/styles.scss */
+  /* line 242, ../sass/styles.scss */
   #brief .smaller {
     width: 38.7%;
   }
 }
 @media (max-width: 1190px) {
-  /* line 238, ../sass/styles.scss */
+  /* line 242, ../sass/styles.scss */
   #brief .smaller {
     width: 100%;
     margin-top: 2rem;
@@ -10627,20 +10633,20 @@ nav {
   }
 }
 @media (max-width: 1190px) {
-  /* line 250, ../sass/styles.scss */
+  /* line 254, ../sass/styles.scss */
   #brief .smaller img {
     min-width: 100%;
     max-height: 100%;
   }
 }
 
-/* line 258, ../sass/styles.scss */
+/* line 262, ../sass/styles.scss */
 .btn-shopnow,
 .btn-readmore {
   transition: background-color 0.4s ease 0s;
 }
 
-/* line 263, ../sass/styles.scss */
+/* line 267, ../sass/styles.scss */
 .btn-shopnow {
   color: #FFF;
   background-color: black;
@@ -10648,13 +10654,13 @@ nav {
   line-height: 27px;
   font-size: 1rem;
 }
-/* line 269, ../sass/styles.scss */
+/* line 273, ../sass/styles.scss */
 .btn-shopnow:hover {
   background-color: #2B6CA3;
   color: white;
 }
 
-/* line 275, ../sass/styles.scss */
+/* line 279, ../sass/styles.scss */
 .btn-readmore {
   color: #FFF;
   background-color: black;
@@ -10662,23 +10668,23 @@ nav {
   line-height: 27px;
   font-size: 1rem;
 }
-/* line 281, ../sass/styles.scss */
+/* line 285, ../sass/styles.scss */
 .btn-readmore:hover {
   background-color: #808080;
   color: white;
 }
 
-/* line 287, ../sass/styles.scss */
+/* line 291, ../sass/styles.scss */
 .text-ul {
   background-color: #FAEDED;
 }
-/* line 289, ../sass/styles.scss */
+/* line 293, ../sass/styles.scss */
 .text-ul h2 {
   font-size: 1.8rem;
   font-weight: normal;
   padding-top: 4rem;
 }
-/* line 294, ../sass/styles.scss */
+/* line 298, ../sass/styles.scss */
 .text-ul li,
 .text-ul p {
   font-size: 1.3rem;
@@ -10687,45 +10693,45 @@ nav {
   word-wrap: break-word;
 }
 
-/* line 304, ../sass/styles.scss */
+/* line 308, ../sass/styles.scss */
 footer {
   height: 340px;
   position: relative;
 }
 @media (max-width: 992px) {
-  /* line 304, ../sass/styles.scss */
+  /* line 308, ../sass/styles.scss */
   footer {
     top: 2950px;
   }
 }
 @media (max-width: 940px) {
-  /* line 304, ../sass/styles.scss */
+  /* line 308, ../sass/styles.scss */
   footer {
     top: 4230px;
   }
 }
-/* line 313, ../sass/styles.scss */
+/* line 317, ../sass/styles.scss */
 footer hr {
   border-color: inherit;
 }
 
-/* line 318, ../sass/styles.scss */
+/* line 322, ../sass/styles.scss */
 input {
   border: none;
   min-width: 87%;
   border-bottom: solid black 1px;
 }
-/* line 322, ../sass/styles.scss */
+/* line 326, ../sass/styles.scss */
 input:hover {
   border: none;
   border-bottom: solid black 1px;
 }
 
-/* line 328, ../sass/styles.scss */
+/* line 332, ../sass/styles.scss */
 #contact-form {
   margin-left: 14.5%;
 }
-/* line 330, ../sass/styles.scss */
+/* line 334, ../sass/styles.scss */
 #contact-form input {
   border: none;
   min-width: 87%;
@@ -10733,7 +10739,7 @@ input:hover {
   border-radius: 0px;
 }
 
-/* line 338, ../sass/styles.scss */
+/* line 342, ../sass/styles.scss */
 .input-group-addon {
   background-color: transparent;
   border: none;
@@ -10741,49 +10747,49 @@ input:hover {
   border-radius: 0;
 }
 
-/* line 345, ../sass/styles.scss */
+/* line 349, ../sass/styles.scss */
 .fa-envelope-o {
   color: black;
 }
 
-/* line 349, ../sass/styles.scss */
+/* line 353, ../sass/styles.scss */
 .form-control::-webkit-input-placeholder {
   color: black;
 }
 
-/* line 350, ../sass/styles.scss */
+/* line 354, ../sass/styles.scss */
 .form-control:-moz-placeholder {
   color: black;
 }
 
-/* line 351, ../sass/styles.scss */
+/* line 355, ../sass/styles.scss */
 .form-control::-moz-placeholder {
   color: black;
 }
 
-/* line 352, ../sass/styles.scss */
+/* line 356, ../sass/styles.scss */
 .form-control:-ms-input-placeholder {
   color: black;
 }
 
-/* line 353, ../sass/styles.scss */
+/* line 357, ../sass/styles.scss */
 .form-control::-ms-input-placeholder {
   color: black;
 }
 
-/* line 355, ../sass/styles.scss */
+/* line 359, ../sass/styles.scss */
 .contact-btn {
   background-color: transparent;
   min-width: 100%;
   border: 1px solid black;
 }
 
-/* line 361, ../sass/styles.scss */
+/* line 365, ../sass/styles.scss */
 .btn {
   border-radius: 0;
 }
 
-/* line 365, ../sass/styles.scss */
+/* line 369, ../sass/styles.scss */
 .divider {
   position: absolute;
   left: 114%;
@@ -10792,36 +10798,36 @@ input:hover {
   border-right: 1px solid black;
 }
 
-/* line 374, ../sass/styles.scss */
+/* line 378, ../sass/styles.scss */
 .info-section {
   margin-left: 9%;
   padding-top: 3.2rem;
 }
-/* line 377, ../sass/styles.scss */
+/* line 381, ../sass/styles.scss */
 .info-section a {
   text-decoration: none;
   font-size: 1rem;
   color: #000;
 }
-/* line 381, ../sass/styles.scss */
+/* line 385, ../sass/styles.scss */
 .info-section a:hover {
   color: #000;
 }
-/* line 384, ../sass/styles.scss */
+/* line 388, ../sass/styles.scss */
 .info-section a:focus {
   color: #000;
 }
-/* line 387, ../sass/styles.scss */
+/* line 391, ../sass/styles.scss */
 .info-section a:active {
   color: #000;
 }
 
-/* line 394, ../sass/styles.scss */
+/* line 398, ../sass/styles.scss */
 .div-30 {
   max-width: 30%;
 }
 
-/* line 397, ../sass/styles.scss */
+/* line 401, ../sass/styles.scss */
 .div-39 {
   max-width: 39%;
 }
