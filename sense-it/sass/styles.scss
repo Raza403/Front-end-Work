@@ -1,7 +1,6 @@
 @import "../bower_components/bootstrap/scss/bootstrap";
 @import "../bower_components/bootstrap/scss/_custom.scss";
 // Custom Variables
-$crousel-shirts-color: #F5006A;
 $nav-link-hover-color: #CEA08A;
 $input-color-placeholder: #000;
 $brief-text-color: #FAEDED;
@@ -171,6 +170,10 @@ nav{
     }
 }
 
+
+
+
+
 // Brief section starts here
 #brief {
     .wrapper {
@@ -235,7 +238,6 @@ nav{
     .smaller {
         min-width: 400px;
         height: 580px;
-        background-color: #F5006A;
         @media (min-width: 1190px) {
             width: 38.7%;
         }
@@ -245,9 +247,14 @@ nav{
             right: 0;
             left: 80px;
         }
+        img{
+            @media (max-width: 1190px){
+                min-width: 100%;
+                max-height: 100%;
+            }
+        }
     }
 }
-
 .btn-shopnow,
 .btn-readmore {
     transition: background-color 0.4s ease 0s;
