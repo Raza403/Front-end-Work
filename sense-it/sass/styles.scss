@@ -149,6 +149,11 @@ $navbar-light-toggler-border: rgba($black,
     font-family: Didot;
 }
 
+.font10{
+    font-family: Didot;
+    font-style: italic;
+}
+
 .heart {
     width: 3.5rem;
     height: 3.5rem;
@@ -414,7 +419,8 @@ nav {
 }
 
 .btn-shopnow,
-.btn-readmore {
+.btn-readmore,
+.btn-ga {
     transition: background-color 0.4s ease 0s;
     font-family:    georgia,palatino,'book antiqua','palatino linotype',serif;
 }
@@ -456,6 +462,7 @@ nav {
         padding-top: 1.3rem;
         font-weight: normal;
         word-wrap: break-word;
+        font-family: Futura-lt-01;
     }
 }
 
@@ -478,6 +485,17 @@ nav {
             }
     
     
+}
+.btn-ga{
+    background-color: #000;
+    color: #fff;
+    width: 160px;
+    height: 30px;
+    &:hover{
+        background-color: #555555;
+        color: white;
+    }
+
 }
 
 
