@@ -1,0 +1,24 @@
+/* line 9, ../sass/styles.scss */
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+
+/* line 13, ../sass/styles.scss */
+#wrapper {
+  background-color: #d7cec7;
+  margin: 0 15px;
+}
+
+/* line 17, ../sass/styles.scss */
+#title {
+  text-align: center;
+  color: #76323f;
+}
+
+/* line 21, ../sass/styles.scss */
+#description {
+  text-align: center;
+  margin-top: 5vh;
+  color: #565656;
+}
