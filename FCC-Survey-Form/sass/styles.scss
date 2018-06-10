@@ -23,3 +23,31 @@ body{
   margin-top: 5vh;
   color:$text-color;
 }
+.flex-outer li, .flex-inner{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 220px;
+  max-width: 320px;
+}
+ 
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 150px;
+}
+.flex-outer li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: $title-color;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
+.flex-inner li {
+  width: 100px;
+}
