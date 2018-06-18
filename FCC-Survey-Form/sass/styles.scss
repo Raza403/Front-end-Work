@@ -2,6 +2,38 @@
 $font-family: 'Courier New', Courier, monospace;
 $font-size: 18px;
 $background-color: #d7cec7;
-$sides-margin: 0 15px;
 $title-color: #76323f;
 $text-color: #565656;
+
+body{
+  font-size: $font-size;
+  font-family: $font-family;
+}
+#title{
+  color:$title-color;
+  font-weight: bolder;
+}
+.form{
+  background-color: $background-color;
+}
+.inner{
+  color: $text-color;
+  width: 70%;
+  margin: 0 auto;
+}
+.form-start{
+  margin-top: 8vh;
+}
+input{
+  border: none;
+  background-color: $background-color;
+  border-bottom: 3px solid $title-color;
+  margin-bottom: 5vh;
+  @media only screen and (min-width: 20px) {
+    width: 100%;
+}
+  &:focus{
+    outline: none;
+    border-bottom: 3px solid $title-color;
+  }
+}

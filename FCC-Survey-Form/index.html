@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>FCC Survey Form</title>
+
+  <!-- Bootstrap -->
+  <link href="./stylesheets/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./stylesheets//styles.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <h1 class="text-center text-capitalize" id="title">survey form</h1>
+      <div class="form col-xs-12">
+        <div class="inner">
+          <p id="description" class="text-center h3">Let's know how we can improve Free Code Camp!</p>
+          <form action="submit">
+            <div class="text-center form-start">
+              <div>
+                <label for="name" class="col-sm-3 text-left">* Name:</label>
+                <input type="text" class="col-sm-9 text-right" required>
+              </div>
+              <div class="">
+                <label for="email" class="col-sm-3  text-left">* Email:</label>
+                <input type="email" class="col-sm-9 text-right" required>
+              </div>
+              <div class="">
+                <label for="age" class="col-sm-3  text-left">* Age:</label>
+                <input type="number" class="col-sm-9 text-right" required>
+              </div>
+              <div>
+                <label class="col-md-6 text-left" for="dropdown">Which option best describes your current role:</label>
+                <select class="col-md-6 text-right" name="dropdown" id="dropdown">
+                  <option value="student" class="text-capitalize">student</option>
+                  <option value="professional" class="text-capitalize">full time professional</option>
+                  <option value="learner" class="text-capitalize">full time learner</option>
+                  <option value="notToSay" class="text-capitalize">prefer not to say</option>
+                  <option value="other" class="text-capitalize">other</option>
+                </select> 
+              </div>
+              <div>
+                <label for="radio" class="center-block">How likely is that you would recommend FCC to a friend.</label>
+                <label for="definately" class="text-capitalize center-block"><input type="radio" name="radio" id="definately">definately</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
