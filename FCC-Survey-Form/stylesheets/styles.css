@@ -45,3 +45,24 @@ input:focus {
   outline: none;
   border-bottom: 3px solid #76323f;
 }
+
+/* line 40, ../sass/styles.scss */
+.recommend {
+  margin: 2.5vh 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 993px) {
+  /* line 46, ../sass/styles.scss */
+  .recommendLabel, .radio-wrapper {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 490px) {
+  /* line 52, ../sass/styles.scss */
+  select {
+    max-width: 100%;
+  }
+}

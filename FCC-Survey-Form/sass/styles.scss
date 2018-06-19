@@ -37,3 +37,20 @@ input{
     border-bottom: 3px solid $title-color;
   }
 }
+.recommend{
+  margin: 2.5vh 0;
+  padding: 0;
+}
+
+  @media only screen and (max-width: 993px) {
+    .recommendLabel,.radio-wrapper{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+}
+select{
+  @media only screen and (max-width: 490px) {
+    max-width: 100%;
+  }  
+}

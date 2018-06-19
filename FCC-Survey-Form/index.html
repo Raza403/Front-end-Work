@@ -29,7 +29,7 @@
         <div class="inner">
           <p id="description" class="text-center h3">Let's know how we can improve Free Code Camp!</p>
           <form action="submit">
-            <div class="text-center form-start">
+            <div class="form-start">
               <div>
                 <label for="name" class="col-sm-3 text-left">* Name:</label>
                 <input type="text" class="col-sm-9 text-right" required>
@@ -52,9 +52,15 @@
                   <option value="other" class="text-capitalize">other</option>
                 </select> 
               </div>
-              <div>
-                <label for="radio" class="center-block">How likely is that you would recommend FCC to a friend.</label>
-                <label for="definately" class="text-capitalize center-block"><input type="radio" name="radio" id="definately">definately</label>
+              <div class="col-md-12 recommend">
+                <div class="col-md-6 text-left">
+                  <label for="recommendation" class="recommendLabel">How likely is that you would recommend FCC to your friend?</label>
+                </div>
+                <div class="col-md-6 radio-wrapper">
+                  <label for="definately" class=""><input type="radio" name="recommendation" id="definately">Definately</label>
+                  <label for="mayBe" class=""><input type="radio" name="recommendation" id="mayBe">Maybe</label>
+                  <label for="notSure" class=""><input type="radio" name="recommendation" id="notSure">Not Sure</label>
+                </div>
               </div>
             </div>
           </form>
