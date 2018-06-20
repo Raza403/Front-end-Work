@@ -15,6 +15,7 @@ body{
 }
 .form{
   background-color: $background-color;
+  margin-bottom: 7vh;
 }
 .inner{
   color: $text-color;
@@ -37,7 +38,7 @@ input{
     border-bottom: 3px solid $title-color;
   }
 }
-.recommend{
+.recommend,.checkbox-wrapper,.textarea-wrapper{
   margin: 2.5vh 0;
   padding: 0;
 }
@@ -53,4 +54,17 @@ select{
   @media only screen and (max-width: 490px) {
     max-width: 100%;
   }  
+}
+.checkbox{
+  width: 100%;
+  label{
+    font-weight: bold;
+  }
+  input[type='checkbox']{
+    position: relative;
+    width:30px;
+  }
+}
+#submit{
+  margin-bottom: 5vh;
 }
