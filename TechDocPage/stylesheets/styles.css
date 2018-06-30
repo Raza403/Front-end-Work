@@ -12,33 +12,38 @@ body {
 
 /* line 9, ../sass/styles.scss */
 .nav {
-  flex-grow: 1;
+  flex-grow: 0;
+  flex-basis: 30%;
   flex-direction: column;
   border-right: 2px solid gray;
+  position: fixed;
 }
 
-/* line 14, ../sass/styles.scss */
+/* line 16, ../sass/styles.scss */
 .main {
-  flex-grow: 5;
+  flex-grow: 0;
+  flex-basis: 70%;
   flex-direction: column;
+  margin-left: 30%;
+  flex-wrap: wrap;
 }
 
-/* line 18, ../sass/styles.scss */
+/* line 23, ../sass/styles.scss */
 #navbar {
   margin: 0 auto;
 }
-/* line 20, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 #navbar header {
   font-size: 1.5em;
   font-weight: bold;
   margin: 2vh auto;
 }
-/* line 25, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 #navbar header ul li {
   list-style: none;
 }
 
-/* line 31, ../sass/styles.scss */
+/* line 36, ../sass/styles.scss */
 .nav-link {
   text-decoration: none;
   color: black;
@@ -47,28 +52,67 @@ body {
   margin: 3px;
   transition: .4s;
 }
-/* line 39, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 .nav-link:hover {
   color: antiquewhite;
   background-color: maroon;
 }
 
-@media only screen and (max-width: 768px) {
-  /* line 46, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
+.main-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 4vw;
+}
+/* line 54, ../sass/styles.scss */
+.main-section header {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 3vh auto;
+}
+/* line 59, ../sass/styles.scss */
+.main-section p {
+  color: gray;
+  font-size: 0.9em;
+}
+
+/* line 64, ../sass/styles.scss */
+.gray {
+  color: gray;
+}
+
+/* line 67, ../sass/styles.scss */
+code {
+  background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 942px) {
+  /* line 72, ../sass/styles.scss */
   .main-container {
     flex-direction: column;
   }
 
-  /* line 49, ../sass/styles.scss */
+  /* line 75, ../sass/styles.scss */
   .nav {
     max-height: 40vh;
     overflow-y: scroll;
     margin-bottom: 4vh;
     border-bottom: 3px double gray;
+    display: block;
+    width: 100%;
+    background-color: whitesmoke;
   }
 
-  /* line 55, ../sass/styles.scss */
+  /* line 84, ../sass/styles.scss */
   .main {
-    position: relative;
+    margin: 0 auto;
+    margin-top: 40vh;
+    padding-top: 2%;
+  }
+
+  /* line 90, ../sass/styles.scss */
+  #navbar header {
+    text-align: center;
   }
 }
